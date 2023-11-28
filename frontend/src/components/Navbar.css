@@ -1,0 +1,7 @@
+.list-item{
+    @apply text-center p-4 hover:bg-indigo-500 ease-linear duration-100 rounded-md
+}
+
+.item-selected{
+    @apply -translate-y-2 bg-indigo-500 
+}
