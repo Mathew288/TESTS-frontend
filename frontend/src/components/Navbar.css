@@ -1,5 +1,5 @@
 .list-item{
-    @apply text-center p-4 hover:bg-indigo-500 ease-linear duration-100 rounded-md
+    @apply text-center p-4 hover:bg-indigo-500 ease-linear duration-100 rounded-md text-white
 }
 
 .item-selected{
