@@ -23,6 +23,8 @@ function Login() {
             if (data) {
                 alert(`Te has logueado correctamente, ${data.user.nombre} ${data.user.apellido}`);
                 sessionStorage.setItem('token', data.token);
+                window.location.reload();
+                window.location.href = '/';
             }
             console.log("Data:", data);
 

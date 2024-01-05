@@ -22,3 +22,14 @@ export function ButtonLogin({ children, ...props }: Props) {
         </button>
     )
 }
+
+export function ButtonNav({ children, ...props }: Props) {
+    return (
+        <button
+            className="text-center p-4 hover:bg-indigo-500 ease-linear duration-100 rounded-md text-white"
+            {...props}
+        >
+            {children}
+        </button>
+    );
+}
