@@ -29,5 +29,5 @@ section#image-side{
 }
 
 #form_login{
-    @apply w-auto h-full flex flex-col items-center justify-center p-10
+    @apply w-auto h-full flex flex-col items-center justify-center p-10 gap-5
 }

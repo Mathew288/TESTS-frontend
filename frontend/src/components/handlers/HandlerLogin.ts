@@ -11,8 +11,8 @@ export async function loginUser(credentials: LoginCredentials): Promise<ApiRespo
     try {
 
 
-        const apiUrl = 'http://localhost:3000/auth/login';
-
+        const baseUrl = import.meta.env.VITE_BACKEND_URL;
+        const apiUrl = `${baseUrl}/auth/login`
         const body = {
             email: credentials.email,
             password: credentials.password

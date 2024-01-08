@@ -1,12 +1,13 @@
 export interface User {
-    id: number;
+    id?: number;
     nombre: string;
     apellido: string;
     cedula: string;
     fecha_nacimiento: string;
     email: string;
     contacto: string;
-    rol: string;
+    password?: string;
+    rol?: string;
 }
 
 export interface ApiResponse {
